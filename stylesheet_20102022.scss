@@ -1,0 +1,219 @@
+$rojolg: #a50034;
+$grislg: #f8f8f8;
+$gristextlg: #6b6b6b;
+$fontlg: "LG Smart", "Segoe UI", "Microsoft Sans Serif", sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+.default {
+  text-align: center;
+}
+body.microsite {
+  margin: 0;
+  padding: 0;
+  .content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  h1 {
+    border-bottom: 1px solid #000000;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+    width: 100%;
+    font-size: 32px;
+  }
+  h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    color: $rojolg;
+    font-weight: 500;
+
+    button {
+      color: $rojolg;
+      font-weight: bold;
+
+      &:hover,
+      &:focus + .btn,
+      &:focus {
+        color: $rojolg;
+        box-shadow: 0 0 0 0.05rem $rojolg !important;
+        outline: 0;
+      }
+    }
+  }
+  h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 2rem;
+    color: $rojolg;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.5rem;
+    color: $gristextlg;
+    font-weight: 600;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  h4 {
+    width: 100%;
+  }
+  .container {
+    margin-top: 2rem;
+  }
+
+  .content .text p {
+    font-size: 1.1rem;
+  }
+  .tittle-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &.text {
+      p {
+        width: 100%;
+      }
+    }
+    img {
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+      width: 75%;
+      margin: 1rem 0;
+    }
+    &.two-columns {
+      flex-direction: row;
+      @media (max-width: 500px) {
+        flex-wrap: wrap;
+      }
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+      }
+      h3 {
+        width: 100%;
+        text-align: center;
+      }
+      img {
+        @media (max-width: 768px) {
+          width: 100%;
+        }
+        width: 47%;
+        margin: 1rem;
+      }
+    }
+    &.three-columns {
+      flex-direction: row;
+      @media (max-width: 500px) {
+        flex-wrap: wrap;
+      }
+      @media (max-width: 768px) {
+        flex-wrap: wrap;
+      }
+
+      h3 {
+        width: 100%;
+        text-align: left;
+      }
+      img {
+        @media (max-width: 500px) {
+          width: 100%;
+        }
+        @media (max-width: 768px) {
+          width: 47%;
+        }
+        width: 30%;
+        margin: 1rem;
+      }
+    }
+  }
+  .text {
+    ul {
+      @media (max-width: 768px) {
+        padding-left: 0;
+        margin-left: 0;
+      }
+      list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+      padding-left: 12px;
+      font-size: 1rem;
+      margin-left: 1rem;
+      width: 100%;
+      li {
+        list-style: inherit;
+      }
+    }
+    ol {
+      @media (max-width: 768px) {
+        padding-left: 0;
+        margin-left: 0;
+      }
+      padding-left: 12px;
+      font-size: 1rem;
+      margin-left: 1rem;
+      width: 100%;
+      list-style-type: decimal;
+      li {
+        list-style: inherit;
+      }
+    }
+  }
+
+  .beforefooter {
+    @media (max-width: 768px) {
+      flex-wrap: wrap;
+    }
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+    .content-bfooter {
+      width: 50%;
+      h2 {
+        margin-bottom: 1rem;
+      }
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      &.left {
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+        text-align: left;
+      }
+      &.right {
+        @media (max-width: 768px) {
+          text-align: center;
+        }
+        ul {
+          @media (max-width: 768px) {
+            padding-left: 0;
+          }
+        }
+        text-align: right;
+        a {
+          color: $gristextlg;
+        }
+      }
+    }
+  }
+  a {
+    color: $rojolg;
+    text-decoration: none;
+    font-size: 1rem;
+
+    &:hover {
+      color: $rojolg;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+  }
+  .bar-menu {
+    a {
+      color: #ffffff;
+    }
+  }
+}
