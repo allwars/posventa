@@ -1,0 +1,128 @@
+{
+    "titulo":"Lavadora: carga máxima",
+
+      "first":{
+        "bloquecenter":false,
+        "texto":"Para un correcto funcionamiento, la lavadora tiene que tener la carga correcta. Un exceso de carga tiene el mismo resultado negativo sobre el lavado que una carga insuficiente. A continuación, presentamos una tabla en función del programa de lavado y de la capacidad máxima de la lavadora.",
+        "img":"microsites/lavado-secado/carga-max-lavadora/image1.png"
+      },
+      "second":{
+        "texto":"A continuación, te facilitamos el peso medio de diferentes prendas como referencia, este peso puede variar según el tipo exacto de tejido y el tamaño de la prenda, pero te dará una idea de la cantidad de prendas que puedes introducir en la lavadora:"
+      },
+
+      "table":{
+        "titulos":[
+          {
+            "texto":"Programa de lavado"
+          },
+          {
+            "texto":"Carga máxima [KG]"
+          }
+        ],
+        "content":[
+          {
+            "programa":"Algodón",
+            "carga":"Capacidad máxima de la lavadora (7, 8, 9, 10.5, 12..)"
+          },
+          {
+            "programa":"Eco 40-60",
+            "carga":"Capacidad máxima de la lavadora (7, 8, 9, 10.5, 12..)"
+          },
+          {
+            "programa":"TurboWash 59",
+            "carga":"5"
+          },
+          {
+            "programa":"Mixtos",
+            "carga":"4 - 5"
+          },
+          {
+            "programa":"Lavado silencioso",
+            "carga":"5 - 6"
+          },
+          {
+            "programa":"Antialérgico",
+            "carga":"4 - 5"
+          },
+          {
+            "programa":"Cuidado Infantil con Vapor",
+            "carga":"4"
+          },
+          {
+            "programa":"Delicado",
+            "carga":"3 - 4"
+          },
+          {
+            "programa":"Lavado a mano/Lana",
+            "carga":"2"
+          },
+          {
+            "programa":"Ropa de deporte",
+            "carga":"3 - 4"
+          },
+          {
+            "programa":"Rápido 14",
+            "carga":"2"
+          },
+          {
+            "programa":"Ropa de cama",
+            "carga":"2.5"
+          },
+          {
+            "programa":"Limpieza de cuba",
+            "carga":"-"
+          },
+          {
+            "programa":"Descarga de programa",
+            "carga":"-"
+          }
+        ]
+      },
+    
+      "table2":{
+        "titulos":[
+          {
+            "texto":"ROPA DE HOGAR"
+          },
+          {
+            "texto":"ROPA PERSONAL"
+          }
+        ],
+        "content":[
+          {
+            "programa":"Alfombrilla de baño",
+            "carga":"400 g"
+          },
+          {
+            "programa":"Colcha de algodón",
+            "carga":"1 kg"
+          },
+          {
+            "programa":"Funda almohada",
+            "carga":"150 g"
+          },
+          {
+            "programa":"Mantel para 12 pers.",
+            "carga":"850 g"
+          },
+          {
+            "programa":"Mantel para 4 pers.",
+            "carga":"250 g"
+          },
+          {
+            "programa":"Sábana (algodón)",
+            "carga":"650 g"
+          },
+          {
+            "programa":"Toalla de baño",
+            "carga":"1 kg"
+          },
+          {
+            "programa":"Toalla de mano",
+            "carga":"400 g"
+          }
+        ]
+      }
+    
+  }
+  

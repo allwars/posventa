@@ -1,0 +1,229 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.default {
+  text-align: center;
+}
+
+body.microsite {
+  margin: 0;
+  padding: 0;
+}
+body.microsite .content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body.microsite h1 {
+  border-bottom: 1px solid #000000;
+  padding-bottom: 15px;
+  margin-bottom: 25px;
+  width: 100%;
+  font-size: 32px;
+}
+body.microsite h2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 2rem;
+  color: #a50034;
+  font-weight: 500;
+}
+body.microsite h2 button {
+  color: #a50034;
+  font-weight: bold;
+}
+body.microsite h2 button:hover, body.microsite h2 button:focus + .btn, body.microsite h2 button:focus {
+  color: #a50034;
+  box-shadow: 0 0 0 0.05rem #a50034 !important;
+  outline: 0;
+}
+body.microsite h2 {
+  padding-top: 2%;
+  padding-bottom: 2%;
+  font-size: 2rem;
+  color: #a50034;
+  font-weight: 500;
+}
+body.microsite h3 {
+  font-size: 1.5rem;
+  color: #6b6b6b;
+  font-weight: 600;
+  margin-top: 1rem;
+  width: 100%;
+}
+body.microsite h4 {
+  width: 100%;
+}
+body.microsite .container {
+  margin-top: 2rem;
+}
+body.microsite .content .text p {
+  font-size: 1.1rem;
+}
+body.microsite .tittle-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body.microsite .tittle-img.text p {
+  width: 100%;
+}
+body.microsite .tittle-img img {
+  width: 75%;
+  margin: 1rem 0;
+}
+@media (max-width: 768px) {
+  body.microsite .tittle-img img {
+    width: 100%;
+  }
+}
+body.microsite .tittle-img.two-columns {
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  body.microsite .tittle-img.two-columns {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  body.microsite .tittle-img.two-columns {
+    flex-wrap: wrap;
+  }
+}
+body.microsite .tittle-img.two-columns h3 {
+  width: 100%;
+  text-align: center;
+}
+body.microsite .tittle-img.two-columns img {
+  width: 47%;
+  margin: 1rem;
+}
+@media (max-width: 768px) {
+  body.microsite .tittle-img.two-columns img {
+    width: 100%;
+  }
+}
+body.microsite .tittle-img.three-columns {
+  flex-direction: row;
+}
+@media (max-width: 500px) {
+  body.microsite .tittle-img.three-columns {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) {
+  body.microsite .tittle-img.three-columns {
+    flex-wrap: wrap;
+  }
+}
+body.microsite .tittle-img.three-columns h3 {
+  width: 100%;
+  text-align: left;
+}
+body.microsite .tittle-img.three-columns img {
+  width: 30%;
+  margin: 1rem;
+}
+@media (max-width: 500px) {
+  body.microsite .tittle-img.three-columns img {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  body.microsite .tittle-img.three-columns img {
+    width: 47%;
+  }
+}
+body.microsite .text ul {
+  list-style-image: url(/es/mp-common/images/skin/mpo-li-arrow.png);
+  padding-left: 12px;
+  font-size: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+}
+@media (max-width: 768px) {
+  body.microsite .text ul {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+body.microsite .text ul li {
+  list-style: inherit;
+}
+body.microsite .text ol {
+  padding-left: 12px;
+  font-size: 1rem;
+  margin-left: 1rem;
+  width: 100%;
+  list-style-type: decimal;
+}
+@media (max-width: 768px) {
+  body.microsite .text ol {
+    padding-left: 0;
+    margin-left: 0;
+  }
+}
+body.microsite .text ol li {
+  list-style: inherit;
+}
+body.microsite .beforefooter {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+@media (max-width: 768px) {
+  body.microsite .beforefooter {
+    flex-wrap: wrap;
+  }
+}
+body.microsite .beforefooter .content-bfooter {
+  width: 50%;
+}
+body.microsite .beforefooter .content-bfooter h2 {
+  margin-bottom: 1rem;
+}
+@media (max-width: 768px) {
+  body.microsite .beforefooter .content-bfooter {
+    width: 100%;
+  }
+}
+body.microsite .beforefooter .content-bfooter.left {
+  text-align: left;
+}
+@media (max-width: 768px) {
+  body.microsite .beforefooter .content-bfooter.left {
+    text-align: center;
+  }
+}
+body.microsite .beforefooter .content-bfooter.right {
+  text-align: right;
+}
+@media (max-width: 768px) {
+  body.microsite .beforefooter .content-bfooter.right {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  body.microsite .beforefooter .content-bfooter.right ul {
+    padding-left: 0;
+  }
+}
+body.microsite .beforefooter .content-bfooter.right a {
+  color: #6b6b6b;
+}
+body.microsite a {
+  color: #a50034;
+  text-decoration: none;
+  font-size: 1rem;
+}
+body.microsite a:hover {
+  color: #a50034;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+}
+body.microsite .bar-menu a {
+  color: #ffffff;
+}/*# sourceMappingURL=stylesheet_20102022.css.map */

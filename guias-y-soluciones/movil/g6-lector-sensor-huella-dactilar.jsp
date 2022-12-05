@@ -1,0 +1,354 @@
+<%--
+/**
+ *******************************************************************************
+ * FILE: /WEB-INF/jsp/support/micro.jsp
+ * Desc : Sample 
+ *
+ * PROJ : LG.com 5.0
+ *******************************************************************************
+ *                  Modification History
+ *******************************************************************************
+ * CSR No.      DATE              AUTHOR             DESCRIPTION
+ *******************************************************************************
+ *           2019/xx/xx          xxxxxxxx           Initial Release
+ *******************************************************************************
+ **/
+--%>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ include file="/WEB-INF/jsp/gpCommon/includes/doctype.jsp"%>
+<%@ include file="/WEB-INF/jsp/gpCommon/includes/pageTop.jsp"%>
+<head>
+
+<!-- Google Tag Manager code -->
+
+<script src="/es/posventa/js/google-tag-manager.js" defer></script>
+<script src="/es/posventa/js/customjs.js" defer></script>
+
+	<!-- default code -->
+	<c:set var="headerTitle"><global:message mode="hidden" code="home-seo-metatag-title" text="home-seo-metatag-title"/></c:set>
+	<c:set var="headerKeywords"><global:message mode="hidden" code="home-seo-metatag-keywords" text="home-seo-metatag-keywords"/></c:set>
+	<c:set var="headerDescription"><global:message mode="hidden" code="home-seo-metatag-description" text="home-seo-metatag-description"/></c:set>
+	<c:import url="/WEB-INF/jsp/gpCommon/includes/headerDefault.jsp" charEncoding="utf-8">
+		<c:param name="title" value="${headerTitle}" />
+		<c:param name="keywords" value="${headerKeywords}" />
+		<c:param name="description" value="${headerDescription}" />
+		<c:param name="robots" value="${headerRobots}" />
+		<c:param name="canonical" value="${headerCanonical}" />
+		<c:param name="ogImage" value="${ogImage}" />
+	</c:import>
+	<!-- // default code -->
+
+	<!-- css -->
+	<link href="/lg5-common-gp/css/support-default.min.css" type="text/css" rel="stylesheet">
+	<link href="/lg5-common-gp/css/support-home.min.css" type="text/css" rel="stylesheet">	
+	<link href="/lg5-common-gp/css/support-solutions.min.css" type="text/css" rel="stylesheet">
+	
+	
+	<link href="/es/posventa/css/custom_css.css" type="text/css" rel="stylesheet">
+	<!-- //css -->
+	
+	<jsp:include page="/WEB-INF/jsp/gpCommon/includes/headerScript.jsp" />
+
+</head>
+<body>
+
+<noscript src="/es/poventa/js/google-tag-manager-nscript.js" defer></noscript>
+
+	<c:import url="/WEB-INF/jsp/gpCommon/includes/bodyTop.jsp" charEncoding="utf-8">
+		<c:param name="title" value="${headerTitle}" />
+		<c:param name="keywords" value="${headerKeywords}" />
+		<c:param name="description" value="${headerDescription}" />
+		<c:param name="canonical" value="${headerCanonical}" />
+		<c:param name="image" value="${ogImage}" />
+	</c:import>
+<!-- b2c or b2b -->
+<!-- component (navigation) Mobile = ${isMobile} -->
+	<jsp:include page="/${localeCd}/support/retrieveGnbHtml" >
+		<jsp:param name="isMobile" value="${isMobile}" />
+		<jsp:param name="bizType" value="${bizType}" />
+		<jsp:param name="siteType" value="CST" />
+	</jsp:include>
+<!--
+	breadcrumb : compare, search result 페이지에서는 사용하지 않습니다.  
+-->
+	<jsp:include page="/${localeCd}/commonmodule/breadcrumb" >
+		<jsp:param name="bizType" value="B2C" />
+	</jsp:include>
+<!-- // breadcrumb -->
+						<!-- // component (navigation) -->
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid">
+			<!-- none-component contents -->
+			<div class="support-wrap">
+				<!-- Contents Area Start -->
+ <div class="wrapper">
+<!-- fluid container start  -->
+<div class="fluid container" id="content">
+<div class="row mpo-header">
+<div class="span12">
+<div class="mpo-header-h1">
+<h1>LG G6: sensor huella dactilar</h1>
+</div>
+<div class="share" id="shareClick" style="margin-right:10px;">
+<!-- LGEES-2638 START-->
+<!-- LGEES-2638 END-->
+<!-- LGEES-2535 -->
+<div class="shareload" data-url="/es/lgcompf4/support/share/snsList.lg?systemFlag=CS&amp;longUrl=http://www.lg.com/es/posventa/guias-y-soluciones/movil/g6-lector-sensor-huella-dactilar&amp;imageUrl=http://www.lg.com/es/mp-common/images/common/lg-logo-fb.png&amp;micrositeFlag=Y"></div>
+<!-- LGEES-2535 END -->
+</div>
+</div>
+</div>
+<!--  Page contents Start -->
+<div class="mpo-container container-fluid nonmobile" id="container" mobile="nonmobile">
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>El<strong> </strong><a href="http://www.lg.com/es/telefonos-moviles/lg-LGH870-platinum?utm_medium=web&amp;utm_source=svc-microsite&amp;utm_campaign=svc-g6" target="_blank">LG G6</a><strong> </strong>integra un sensor de huellas dactilares. Con él es muy sencillo, rápido y seguro <strong>desbloquear</strong> el terminal. Al mismo tiempo, también te servirá como <strong>medida de seguridad</strong> para acceder a aplicaciones, proteger contenido privado como fotos o mensajes y realizar pagos en internet de forma segura. Y por supuesto, también puedes desactivarlo, si ése es tu deseo.</p>
+<p> </p>
+<p><span class="mpo-lgred">LG Electronics</span> lo ha instalado en la <strong>mejor ubicación</strong> posible de la parte trasera, en una posición central, para que sea cómodo y natural acceder a él, tanto con la mano derecha como izquierda. Tampoco tendrás problemas de confundirlo con la cámara pues se encuentra más abajo.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span2 mpo-area ">
+</div>
+<div class="span8 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-image mpo-media">
+<span class="loader"><img alt="lg-g6-sensor-huella-dactilar" src="/es/mp-resources/images/posventa/guias-y-soluciones/movil/g6-lector-sensor-huella-dactilar/lg-g6-sensor-huella-dactilar_9999.jpg"/></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12">
+<h2>¿Cuántas huellas puedo almacenar?</h2>
+</div>
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>Durante la configuración inicial, Android te pedirá escanear tu huella dactilar para configurar su primer uso. Posteriormente, puedes añadir más huellas que desbloquearán el móvil, hasta un máximo de <strong>5</strong>. Puedes hacerlo fácilmente en este menú:</p>
+<p> </p>
+<p style="text-align: center;"><strong>Ajustes -&gt; Pestaña General -&gt; Huellas digitales y seguridad</strong></p>
+<p> </p>
+<p>También puedes cambiar el nombre de las huellas para identificarlas fácilmente, y por seguridad, te recomendamos que además de las tuyas, grabes la huella de una persona de confianza como tu pareja.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12">
+<h2>¿Sabes que no hace falta presionar el sensor para leer la huella?</h2>
+</div>
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>El sensor de huellas del <a href="http://www.lg.com/es/telefonos-moviles/lg-LGH870-platinum?utm_medium=web&amp;utm_source=svc-microsite&amp;utm_campaign=svc-g6" target="_blank">LG G6</a> cumple una doble función, a parte de leer tu huella, también funciona como un <strong>botón</strong>, que puedes presionar para bloquear/desbloquear la pantalla (pulsación corta) y encender/apagar el terminal (pulsación larga).</p>
+<p> </p>
+<p>La lectura de tu huella también desbloquea automáticamente el teléfono, y no hace falta apretar hacia abajo el botón para ello, solo basta colocar el dedo encima del sensor.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12">
+<h2>Cuando enciendo el teléfono, el lector no funciona</h2>
+</div>
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>Esto es un comportamiento normal. Pulsa el botón del sensor y fíjate en la pantalla, verás que está solicitando introducir el PIN. Esto se realiza como medida de seguridad, y también para evitar olvidar tu PIN, pues es la forma alternativa de desbloquear el móvil, si el lector no reconociera tu huella.</p>
+<p> </p>
+<p>Una vez hayas desbloqueado mediante el PIN esta primera vez, el lector se activará y podrás desbloquear el terminal normalmente.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12">
+<h2>El lector no me ha reconocido varias veces la huella y ha dejado de funcionar...</h2>
+</div>
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>Tienes un máximo de <strong>5 intentos</strong> para desbloquear el teléfono con el lector de huellas.</p>
+<p> </p>
+<p>Si te fijas, cuando el lector no reconoce una huella dactilar, el teléfono vibra 2 veces. Si la reconoce, vibra 1 vez.</p>
+<p> </p>
+<p>Cuando llegas al número máximo de intentos, el lector ya no seguirá leyendo huellas por seguridad, y tendrás que desbloquear el teléfono con un <strong>método alternativo</strong>: knockcode, PIN, contraseña, patrón... si recuerdas, al guardar tus huellas por primera vez, se te pidió otro método de desbloqueo.</p>
+<p> </p>
+<p>Desbloquea la pantalla apretando el botón del lector y podrás utilizar el método alternativo de desbloqueo.</p>
+<p> </p>
+<p>Si alguna de tus huellas no se reconoce con frecuencia, elimina la huella problemática y vuelve a registrarla, fíjate en las instrucciones de registro y pon el dedo en varias posiciones, de punta, de forma natural, de lado, etc. Puedes hacerlo en el menú:</p>
+<p> </p>
+<p style="text-align: center;"> <strong style="text-align: center;">Ajustes -&gt; Pestaña General -&gt; Huellas digitales y seguridad</strong></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span8 mpo-area ">
+<h3>¿Qué tal este contenido?</h3>
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<p>Responde en nuestra encuesta web:</p>
+</div>
+</div>
+</div>
+</div>
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-image mpo-media">
+<span class="loader"><a href="https://www.lg.com/es/support/web-survey-questionnaire" target="_parent"><img alt="lg-encuesta-soporte-posventa" src="/es/posventa/img/lg-encuesta-soporte-posventa.png"/></a></span>
+</div>
+</div>
+</div>
+<div class="span4 mpo-area ">
+<h3>También puede interesarte:</h3>
+<div class="mpo-module " data-padding-top="10">
+<div class="mpo-type-basic mpo-tb-nomedia">
+<div class="mpo-desc-grp" mode="preview">
+<div class="mpo-desc">
+<ul>
+<li><a href="http://www.lg.com/es/posventa/microsites/index-guias-faq" target="_parent">Índice de Guías y Soluciones</a></li>
+<li><a href="g6-camara-nuevas-caracteristicas-y-funciones" target="_parent">G6: novedades de la cámara</a></li>
+<li><a href="g6-resistencia-agua-polvo-IP68" target="_parent">G6: resistencia agua y polvo</a></li>
+<li><a href="g6-filtro-de-luz-azul-comfort-view" target="_parent">G6: filtro comfort view</a></li>
+<li><a href="g6-pantalla-fullvision" target="_parent">G6: pantalla Full Vision</a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row-wrap">
+<div class="row-fluid">
+<div class="span12 mpo-area ">
+<div class="mpo-module " data-padding-top="10">
+<iframe allowfullscreen="" frameborder="0" height="125" src="https://www.lg.com/es/posventa/redirects/es-microsite-iframe-footer" width="100%"></iframe>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--  Page contents End --><!-- fluid container end -->
+</div>
+<script type="text/javascript">
+var digitalData={};
+</script>
+<script type="text/javascript">_satellite.pageBottom();</script> <script type="text/javascript">brightcove.createExperiences();</script>
+</div> 
+
+
+				<!-- // Contents Area End -->
+			</div>
+			<!-- right floating bar -->
+			<jsp:include page="/${localeCd}/support/commonmodule/floatingBar"/>
+			<!-- // right floating bar -->
+
+
+			<!-- // none-component contents -->
+		</div>
+		<div class="container-fluid iw_section">
+			<div class="row iw_row iw_stretch">
+				<div class="iw_columns col-lg-12">
+					<div class="iw_component">
+						<!-- component (footer) -->
+						<!-- copy contents : Product Disclaimer -->
+
+						<c:set var="seoText"><global:message mode="incontext" code="home-footer-seo" text="home-footer-seo"/></c:set>
+						<c:set var="disclaimerText"><global:message mode="incontext" code="home-footer-disclaimer" text=""/></c:set>
+						<c:import url="/WEB-INF/jsp/gpCommon/includes/footerSeo.jsp" charEncoding="utf-8">
+							<c:param name="seo" value="${seoText}" />
+							<c:param name="disclaimer" value="${disclaimerText}" />
+						</c:import>
+						<!--// copy contents -->
+
+						<!-- footer main contents -->
+						<jsp:include page="/${localeCd}/support/retrieveFooterHtml" >
+							<jsp:param name="bizType" value="B2C" />
+							<jsp:param name="siteType" value="CST" />
+						</jsp:include>
+						<!--// footer main contents -->
+
+						<!-- // component (footer) -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- default code -->
+	<c:import url="/WEB-INF/jsp/gpCommon/includes/footerLocalScript.jsp" charEncoding="utf-8">
+		<c:param name="csPageL1" value="${csPageL1}" />
+		<c:param name="csPageL2" value="${csPageL2}" />
+		<c:param name="csPageL3" value="${csPageL3}" />
+		<c:param name="countryCd" value="${countryCd}" />
+		<c:param name="languageCd" value="${languageCd}" />
+		<c:param name="helpLibraryTitle" value="" />
+		<c:param name="videoTutorialTitle" value="" />
+		<c:param name="productSuperCategory" value="" />
+		<c:param name="productCategory" value="" />
+		<c:param name="productId" value="" />
+		<c:param name="csProductName" value="" />
+		<c:param name="pageEvent" value="" />
+		<c:param name="pageDetailName" value="" />
+		<c:param name="localeCode" value="${localeCode}" />
+	</c:import>
+	<c:import url="/WEB-INF/jsp/gpCommon/includes/footerDefault.jsp" charEncoding="utf-8" />
+	<!-- // default code -->
+
+	<script src="/lg5-common-gp/js/common-support.min.js" defer></script>
+	<script src="/lg5-common-gp/library/chosen.min.js"></script>
+	<script src="/lg5-common-gp/library/mCustomScrollbar.min.js" defer></script>
+	<script src="/lg5-common-gp/library/modal.min.js" defer></script>
+	<script src="/lg5-common-gp/js/support/right-floating-bar.min.js" defer></script>
+	<script src="/lg5-common-gp/js/support/find-my-model.min.js" defer></script>
+	<script src="/lg5-common-gp/js/support/notices-list.min.js" defer></script>
+	<script src="/lg5-common-gp/js/support/solutions-contents.min.js" defer></script>	
+	<script src="/lg5-common-gp/js/support/select-product-category-gp.min.js" defer></script>
+	<script src="/lg5-common-gp/js/support/select-your-registered-products.min.js" defer></script>
+	
+</body>
+</html>
