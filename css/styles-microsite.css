@@ -1,39 +1,88 @@
 :root{
     --gutter-space: 32px;
+    --col-width-base: 8.333%;
 }
 
-*[class$='columns_wrapper']{
+.row_wrapper{
     display: flex;
     flex-wrap: wrap;
     gap: var(--gutter-space);
 }
 
-.four-columns_wrapper > *{
-    flex: 1 1 calc(25% - var(--gutter-space));
-    max-width: calc(25% - var(--gutter-space));
-    width: calc(25% - var(--gutter-space));
+.row_wrapper .col-1_wrapper{
+    flex: 1 1 calc(var(--col-width-base) - var(--gutter-space));
+    max-width: calc(var(--col-width-base) - var(--gutter-space));
+    width: calc(var(--col-width-base) - var(--gutter-space));
 }
 
-.three-columns_wrapper > *{
-    flex: 1 1 calc(33.333% - var(--gutter-space));
-    max-width: calc(33.333% - var(--gutter-space));
-    width: calc(33.333% - var(--gutter-space));
+.row_wrapper .col-2_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 2) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 2) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 2) - var(--gutter-space));
 }
 
-.two-columns_wrapper > *{
-    flex: 1 1 calc(50% - var(--gutter-space));
-    max-width: calc(50% - var(--gutter-space));
-    width: calc(50% - var(--gutter-space));
+.row_wrapper .col-3_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 3) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 3) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 3) - var(--gutter-space));
 }
 
-.one-columns_wrapper > *{
+.row_wrapper .col-4_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 4) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 4) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 4) - var(--gutter-space));
+}
+
+.row_wrapper .col-5_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 5) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 5) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 5) - var(--gutter-space));
+}
+
+.row_wrapper .col-6_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 6) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 6) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 6) - var(--gutter-space));
+}
+
+.row_wrapper .col-7_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 7) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 7) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 7) - var(--gutter-space));
+}
+
+.row_wrapper .col-8_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 8) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 8) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 8) - var(--gutter-space));
+}
+
+.row_wrapper .col-9_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 9) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 9) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 9) - var(--gutter-space));
+}
+
+.row_wrapper .col-10_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 10) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 10) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 10) - var(--gutter-space));
+}
+
+.row_wrapper .col-11_wrapper{
+    flex: 1 1 calc(calc(var(--col-width-base) * 11) - var(--gutter-space));
+    max-width: calc(calc(var(--col-width-base) * 11) - var(--gutter-space));
+    width: calc(calc(var(--col-width-base) * 11) - var(--gutter-space));
+}
+
+.row_wrapper .col-12_wrapper{
     flex: 1 1 100%;
     max-width: 100%;
     width: 100%;
 }
 
 @media (max-width: 767px){
-    *[class$='columns_wrapper'] > *{
+    .row_wrapper div[class$='_wrapper']{
         flex: 1 1 100%;
         max-width: 100%;
         width: 100%;
