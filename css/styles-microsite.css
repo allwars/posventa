@@ -1,0 +1,41 @@
+:root{
+    --gutter-space: 32px;
+}
+
+*[class$='columns_wrapper']{
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gutter-space);
+}
+
+.four-columns_wrapper > *{
+    flex: 1 1 calc(25% - var(--gutter-space));
+    max-width: calc(25% - var(--gutter-space));
+    width: calc(25% - var(--gutter-space));
+}
+
+.three-columns_wrapper > *{
+    flex: 1 1 calc(33.333% - var(--gutter-space));
+    max-width: calc(33.333% - var(--gutter-space));
+    width: calc(33.333% - var(--gutter-space));
+}
+
+.two-columns_wrapper > *{
+    flex: 1 1 calc(50% - var(--gutter-space));
+    max-width: calc(50% - var(--gutter-space));
+    width: calc(50% - var(--gutter-space));
+}
+
+.one-columns_wrapper > *{
+    flex: 1 1 100%;
+    max-width: 100%;
+    width: 100%;
+}
+
+@media (max-width: 767px){
+    *[class$='columns_wrapper'] > *{
+        flex: 1 1 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+}
