@@ -1,12 +1,21 @@
 :root{
     --gutter-space: 32px;
     --col-width-base: 8.333%;
+    --padding-inside-col: 8px;
+}
+
+img{
+    width: 100%;
 }
 
 .row_wrapper{
     display: flex;
     flex-wrap: wrap;
     gap: var(--gutter-space);
+}
+
+.row_wrapper div[class^='col-']{
+    padding: var(--padding-inside-col);
 }
 
 .row_wrapper .col-1_wrapper{
